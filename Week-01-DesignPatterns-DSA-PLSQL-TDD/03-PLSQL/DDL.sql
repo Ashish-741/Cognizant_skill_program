@@ -1,0 +1,4 @@
+-- ============================================================================
+-- PL/SQL: Data Definition Language (DDL)
+-- Description: Scripts for creating, altering, and dropping database tables and objects.
+-- ============================================================================
