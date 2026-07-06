@@ -7,7 +7,7 @@
 - Test Driven Development (JUnit 5, Mockito, Boundary Value Analysis)
 - Logging Frameworks (SLF4J, Logback, Log4j2)
 
-## Week 2 ⏳ Pending
+## Week 2 🟢 In Progress
 - Advanced Java & Stream API
 - Spring Framework Basics & Dependency Injection
 - Spring Boot Auto-configuration & REST Controller setup
