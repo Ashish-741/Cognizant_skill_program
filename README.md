@@ -58,6 +58,7 @@ Cognizant_skill_program/
     ├── 01-AdvancedJava-Streams/        # Lambda, Stream API & Optional + Theory.md
     ├── 02-SpringCore-DI/               # IoC Container & Dependency Injection + Theory.md
     ├── 03-SpringBoot-REST/             # Spring Boot Web API & DTOs + Theory.md
+    ├── employee-jdbc/                  # Maven JDBC with DAO, ResourceBundle & Java 21 + Theory.md
     ├── Assignments/                    # Hands-on evaluations & Mini-Project
     └── Screenshots/                    # Execution verification proofs
 ```

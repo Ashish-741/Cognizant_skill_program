@@ -8,6 +8,7 @@
 - Spring Bean Configuration (`@Component`, `@Autowired`, `@Configuration`, `@Bean`, Bean Scopes)
 - Spring Boot Auto-configuration & Starter Dependencies
 - RESTful Web Services (`@RestController`, `@GetMapping`, `@PostMapping`, `ResponseEntity`, DTOs)
+- Advanced Java JDBC with Maven, DAO & Factory Pattern (Java 21 Features)
 
 ---
 
@@ -17,6 +18,7 @@
 01-AdvancedJava-Streams
 02-SpringCore-DI
 03-SpringBoot-REST
+employee-jdbc
 Assignments
 Screenshots
 ```
