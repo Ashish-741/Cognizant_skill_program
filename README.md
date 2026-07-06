@@ -19,6 +19,7 @@
 - 📊 [**SkillSpring Progress Tracker**](Progress.md) — *Instant overview of week-by-week program completion.*
 - 📚 [**Knowledge Wiki**](Wiki/) — *Curated interview questions, cheat sheets, and architectural notes.*
 - 🚀 [**Week 1: Core Concepts & Architecture**](Week-01-DesignPatterns-DSA-PLSQL-TDD/) — *Design Patterns, DSA, PL/SQL, TDD, and Logging.*
+- 🚀 [**Week 2: Advanced Java, Spring Core & REST**](Week-02-AdvancedJava-SpringCore-SpringBoot-REST/) — *Lambda, Stream API, Dependency Injection, and Spring Boot REST.*
 
 ---
 
@@ -45,12 +46,18 @@ Cognizant_skill_program/
 │   ├── 💡 Interview-Questions/         # Top GenC Next technical Q&A
 │   ├── 📑 Cheat-Sheets/                # Quick syntax & Big-O reference guides
 │   └── 📝 Notes/                       # SOLID principles & architecture study notes
-└── 📁 Week-01-DesignPatterns-DSA-PLSQL-TDD/
-    ├── 01-DesignPatterns/              # GoF Patterns with code + Theory.md
-    ├── 02-DSA/                         # Array, String, Search, Sort, Hash + Theory.md
-    ├── 03-PLSQL/                       # Enterprise DB scripts + Theory.md
-    ├── 04-TDD/                         # JUnit 5 & Mockito test suites + Theory.md
-    ├── 05-Logging/                     # SLF4J, Logback & Log4j2 setups + Theory.md
+├── 📁 Week-01-DesignPatterns-DSA-PLSQL-TDD/
+│   ├── 01-DesignPatterns/              # GoF Patterns with code + Theory.md
+│   ├── 02-DSA/                         # Array, String, Search, Sort, Hash + Theory.md
+│   ├── 03-PLSQL/                       # Enterprise DB scripts + Theory.md
+│   ├── 04-TDD/                         # JUnit 5 & Mockito test suites + Theory.md
+│   ├── 05-Logging/                     # SLF4J, Logback & Log4j2 setups + Theory.md
+│   ├── Assignments/                    # Hands-on evaluations & Mini-Project
+│   └── Screenshots/                    # Execution verification proofs
+└── 📁 Week-02-AdvancedJava-SpringCore-SpringBoot-REST/
+    ├── 01-AdvancedJava-Streams/        # Lambda, Stream API & Optional + Theory.md
+    ├── 02-SpringCore-DI/               # IoC Container & Dependency Injection + Theory.md
+    ├── 03-SpringBoot-REST/             # Spring Boot Web API & DTOs + Theory.md
     ├── Assignments/                    # Hands-on evaluations & Mini-Project
     └── Screenshots/                    # Execution verification proofs
 ```

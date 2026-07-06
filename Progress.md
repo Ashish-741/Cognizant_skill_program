@@ -7,12 +7,12 @@
 - Test Driven Development (JUnit 5, Mockito, Boundary Value Analysis)
 - Logging Frameworks (SLF4J, Logback, Log4j2)
 
-## Week 2 🟢 In Progress
-- Advanced Java & Stream API
-- Spring Framework Basics & Dependency Injection
-- Spring Boot Auto-configuration & REST Controller setup
+## Week 2 ✅ Completed
+- Advanced Java & Stream API (Lambda Expressions, Optional, Functional Interfaces)
+- Spring Framework Basics & Dependency Injection (IoC Container, Constructor/Setter Injection)
+- Spring Boot Auto-configuration & REST Controller setup (CRUD Endpoints, DTOs, ResponseEntity)
 
-## Week 3 ⏳ Pending
+## Week 3 🟢 In Progress
 - Spring Data JPA & Hibernate ORM
 - Entity Mapping & Transaction Management
 - Exception Handling & Validation in REST APIs
