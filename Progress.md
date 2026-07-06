@@ -1,7 +1,7 @@
 # Cognizant SkillSpring Progress
 
 ## Week 1 ✅ Completed
-- Design Patterns (Singleton, Factory, Builder, Observer, Strategy)
+- Design Patterns (11 Exercises: Singleton, Factory, Builder, Adapter, Decorator, Proxy, Observer, Strategy, Command, MVC, Dependency Injection)
 - Data Structures & Algorithms (Arrays, Strings, Searching, Sorting, Hashing)
 - PL/SQL Programming (DDL, DML, Queries, Functions, Procedures, Triggers)
 - Test Driven Development (JUnit 5, Mockito, Boundary Value Analysis)
@@ -9,6 +9,7 @@
 
 ## Week 2 ✅ Completed
 - Advanced Java & Stream API (Lambda Expressions, Optional, Functional Interfaces)
+- Advanced Java JDBC with Maven, DAO & Factory Pattern (ResourceBundle, Java 21 Features)
 - Spring Framework Basics & Dependency Injection (IoC Container, Constructor/Setter Injection)
 - Spring Boot Auto-configuration & REST Controller setup (CRUD Endpoints, DTOs, ResponseEntity)
 

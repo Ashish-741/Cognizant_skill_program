@@ -2,7 +2,7 @@
 
 ## Topics Covered
 
-- Design Patterns
+- Design Patterns (11 Comprehensive Exercises: Creational, Structural, Behavioral & MVC)
 - SOLID Principles
 - Data Structures & Algorithms
 - PL/SQL Programming
@@ -39,4 +39,4 @@ Screenshots
 
 ## Status
 
-🟢 In Progress
+✅ Completed
