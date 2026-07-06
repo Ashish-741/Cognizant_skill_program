@@ -50,3 +50,17 @@ In Java 8, `HashMap` uses an array of buckets storing singly linked lists. When 
 ### Q8: What is the difference between `@Mock` and `@InjectMocks` in Mockito?
 - `@Mock`: Creates a dummy mock object of an interface or class. Method calls on this object return default values (null, 0, false) unless explicitly stubbed using `when().thenReturn()`.
 - `@InjectMocks`: Creates an instance of the *actual* class under test and automatically injects all fields annotated with `@Mock` into it.
+
+---
+
+## 5. Advanced JDBC, ResourceBundle & Java 21 Features
+
+### Q9: Why combine JDBC with the DAO and Factory patterns?
+- **DAO (Data Access Object) Pattern:** Isolates database interaction logic behind an interface (`EmployeeDao`), keeping business services decoupled from SQL statements and vendor-specific JDBC driver details.
+- **Factory Pattern:** Abstracts instantiation (`EmployeeDaoFactory` and `ConnectionFactory`), making it effortless to switch between different database implementations or mock storage during unit testing.
+
+### Q10: Why use `ResourceBundle` instead of hardcoding database credentials?
+Using `ResourceBundle` loads properties from `.properties` files (e.g., `dbConfig.properties`) at runtime. This prevents hardcoding passwords in compiled bytecode, enables environment separation (Dev/Test/Prod), and allows credentials to be rotated without modifying or recompiling Java source code.
+
+### Q11: How do Java 21 String Templates (`STR`) improve SQL error logging and UI formatting?
+Prior to Java 21, dynamic string creation required cumbersome string concatenation (`+`) or `String.format()`, which were error-prone and verbose. Java 21 preview **String Templates** (`STR."Employee added [ID: \{id}]"`) provide type-safe, highly readable string interpolation directly within strings.

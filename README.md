@@ -27,8 +27,9 @@
 
 | Category | Technologies & Tools | Key Concepts Covered |
 | :--- | :--- | :--- |
-| **Core Languages** | Java 8+, SQL, PL/SQL | OOP, Streams, Lambda Expressions, Multi-threading, Collections |
-| **Architecture & Design** | GoF Design Patterns | Singleton, Factory, Builder, Observer, Strategy, SOLID Principles |
+| **Core Languages** | Java 8/21, SQL, PL/SQL | OOP, Streams, Lambdas, String Templates (`STR`), Switch Expressions, Records |
+| **Architecture & Design** | GoF & Architectural Patterns | 11 Exercises: Singleton, Factory, Builder, Adapter, Decorator, Proxy, Observer, Strategy, Command, MVC, DI |
+| **Database Connectivity** | JDBC, Maven, ResourceBundle | DAO Pattern, ConnectionFactory Singleton, PreparedStatement, Connection Pooling |
 | **Database & Analytics** | Oracle Database, PL/SQL | DDL, DML, Complex Joins, Stored Procedures, Functions, Database Triggers |
 | **Testing & QA** | JUnit 5, Mockito | Test-Driven Development (TDD), Behavior Mocking, Boundary Value Analysis |
 | **Observability & Logs** | SLF4J, Logback, Log4j2 | Log Levels (`INFO`, `DEBUG`, `WARN`, `ERROR`), File Appenders, Formatting |
@@ -47,7 +48,7 @@ Cognizant_skill_program/
 │   ├── 📑 Cheat-Sheets/                # Quick syntax & Big-O reference guides
 │   └── 📝 Notes/                       # SOLID principles & architecture study notes
 ├── 📁 Week-01-DesignPatterns-DSA-PLSQL-TDD/
-│   ├── 01-DesignPatterns/              # GoF Patterns with code + Theory.md
+│   ├── 01-DesignPatterns/              # 11 Teacher Exercises (GoF + MVC + DI) + Theory.md
 │   ├── 02-DSA/                         # Array, String, Search, Sort, Hash + Theory.md
 │   ├── 03-PLSQL/                       # Enterprise DB scripts + Theory.md
 │   ├── 04-TDD/                         # JUnit 5 & Mockito test suites + Theory.md

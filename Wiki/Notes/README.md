@@ -28,11 +28,29 @@ Need to hide complex object creation logic based on input parameters?
 Need to construct complex objects with numerous optional configurations?
    └──> Use BUILDER (e.g., PC Customizer, HTTP Request Builder)
 
+Need to make incompatible third-party interfaces work together without rewriting them?
+   └──> Use ADAPTER (e.g., Stripe vs. PayPal Gateway Wrappers)
+
+Need to attach additional behaviors to objects dynamically without modifying existing code?
+   └──> Use DECORATOR (e.g., Stacking Email + SMS + Slack notifications)
+
+Need a surrogate placeholder to control access, caching, or lazy loading of a heavy object?
+   └──> Use PROXY (e.g., Lazy Image Loading, Remote Security Gateways)
+
 Need to notify multiple independent subscribers when state changes?
    └──> Use OBSERVER (e.g., Stock Market Ticker, Event Listeners)
 
 Need to switch algorithms or business logic dynamically at runtime?
    └──> Use STRATEGY (e.g., Credit Card vs. UPI Payment checkout)
+
+Need to encapsulate user requests as standalone objects for queuing, scheduling, or undo?
+   └──> Use COMMAND (e.g., Smart Home Remote Control Buttons, Transaction Logs)
+
+Need to separate UI presentation from business logic and domain data?
+   └──> Use MVC (Model-View-Controller) (e.g., Spring MVC, Student Management Dashboard)
+
+Need to remove hardcoded dependencies and implement Inversion of Control (IoC)?
+   └──> Use DEPENDENCY INJECTION (DI) (e.g., Constructor injection of CustomerRepository)
 ```
 
 ---

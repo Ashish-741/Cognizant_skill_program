@@ -92,3 +92,35 @@ git commit -m "feat(week1): implement thread-safe singleton and plsql triggers"
 # Push branch to remote GitHub repository
 git push origin main
 ```
+
+---
+
+## 5. Java 21 & JDBC Pattern Cheat Sheet
+
+```java
+// 1. Java 21 String Templates (Preview)
+String message = STR."Employee added [ID: \{id}, Name: '\{name}']";
+
+// 2. Switch Expressions with Yield
+String status = switch (affectedRows) {
+    case 0 -> { yield "No rows updated"; }
+    case 1 -> { yield "Update successful"; }
+    default -> { yield STR."Updated \{affectedRows} rows"; }
+};
+
+// 3. ResourceBundle Loading
+ResourceBundle bundle = ResourceBundle.getBundle("dbConfig");
+String url = bundle.getString("db.url");
+
+// 4. Thread-Safe Double-Checked Locking Singleton (ConnectionFactory)
+public static Connection getConnection() throws SQLException {
+    if (connection == null || connection.isClosed()) {
+        synchronized (ConnectionFactory.class) {
+            if (connection == null || connection.isClosed()) {
+                connection = DriverManager.getConnection(url, user, pass);
+            }
+        }
+    }
+    return connection;
+}
+```
