@@ -1,6 +1,8 @@
 # Quick Reference Cheat Sheets
 
-A condensed reference guide for Java 8 Streams, PL/SQL concepts, Algorithm Complexities, and Git workflows.
+A condensed reference guide for Java 8 Streams, PL/SQL concepts, Algorithm Complexities, Git workflows, and Hibernate ORM annotations.
+
+- 📖 **[Comprehensive 8-Category Hibernate Annotations Reference Guide](Hibernate-Annotations-Reference.md)**
 
 ---
 
