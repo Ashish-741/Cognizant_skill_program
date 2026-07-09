@@ -20,6 +20,7 @@
 - 📚 [**Knowledge Wiki**](Wiki/) — *Curated interview questions, cheat sheets, and architectural notes.*
 - 🚀 [**Week 1: Core Concepts & Architecture**](Week-01-DesignPatterns-DSA-PLSQL-TDD/) — *Design Patterns, DSA, PL/SQL, TDD, and Logging.*
 - 🚀 [**Week 2: Advanced Java, Spring Core & REST**](Week-02-AdvancedJava-SpringCore-SpringBoot-REST/) — *Lambda, Stream API, Dependency Injection, and Spring Boot REST.*
+- 🚀 [**Week 3: Spring Data JPA, Hibernate & Exception Handling**](Week-03-SpringDataJPA-Hibernate-ExceptionHandling-Validation/) — *ORM Mappings, @Transactional, and @RestControllerAdvice.*
 
 ---
 
@@ -62,6 +63,12 @@ Cognizant_skill_program/
     ├── employee-jdbc/                  # Maven JDBC with DAO, ResourceBundle & Java 21 + Theory.md
     ├── Assignments/                    # Hands-on evaluations & Mini-Project
     └── Screenshots/                    # Execution verification proofs
+├── 📁 Week-03-SpringDataJPA-Hibernate-ExceptionHandling-Validation/
+│   ├── 01-SpringDataJPA-Hibernate/     # JPA Repositories, JPQL & Pagination + Theory.md
+│   ├── 02-EntityMapping-Transactions/  # @OneToMany, @ManyToMany & @Transactional + Theory.md
+│   ├── 03-ExceptionHandling-Validation/# @RestControllerAdvice & Jakarta Validation + Theory.md
+│   ├── Assignments/                    # Hands-on evaluations
+│   └── Screenshots/                    # Execution verification proofs
 ```
 
 ---

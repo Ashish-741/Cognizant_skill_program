@@ -13,10 +13,10 @@
 - Spring Framework Basics & Dependency Injection (IoC Container, Constructor/Setter Injection)
 - Spring Boot Auto-configuration & REST Controller setup (CRUD Endpoints, DTOs, ResponseEntity)
 
-## Week 3 🟢 In Progress
-- Spring Data JPA & Hibernate ORM
-- Entity Mapping & Transaction Management
-- Exception Handling & Validation in REST APIs
+## Week 3 ✅ Completed
+- Spring Data JPA & Hibernate ORM (`JpaRepository`, Derived Queries, JPQL & Native Queries, Pagination)
+- Entity Mapping & Transaction Management (`@OneToMany`, `@ManyToMany`, FetchTypes, `@Transactional` Propagation)
+- Exception Handling & Validation in REST APIs (`@RestControllerAdvice`, `@ExceptionHandler`, Jakarta Validation `@Valid`)
 
 ## Week 4 ⏳ Pending
 - Frontend Fundamentals (HTML5, CSS3, Modern JavaScript)
