@@ -2,6 +2,8 @@
 
 This section contains conceptual study notes on software engineering principles, clean code practices, and system design fundamentals learned during Cognizant DNS 5.0.
 
+- 📊 **[Cognizant DNS 5.0 Repository Benchmark & Competitiveness Audit](Cognizant-DNS-Repository-Benchmark.md)**
+
 ---
 
 ## 1. SOLID Design Principles Explained Simply
