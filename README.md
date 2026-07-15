@@ -21,6 +21,7 @@
 - 🚀 [**Week 1: Core Concepts & Architecture**](Week-01-DesignPatterns-DSA-PLSQL-TDD/) — *Design Patterns, DSA, PL/SQL, TDD, and Logging.*
 - 🚀 [**Week 2: Advanced Java, Spring Core & REST**](Week-02-AdvancedJava-SpringCore-SpringBoot-REST/) — *Lambda, Stream API, Dependency Injection, and Spring Boot REST.*
 - 🚀 [**Week 3: Spring Data JPA, Hibernate & Exception Handling**](Week-03-SpringDataJPA-Hibernate-ExceptionHandling-Validation/) — *ORM Mappings, @Transactional, and @RestControllerAdvice.*
+- 🚀 [**Week 4: Frontend Fundamentals, React SPAs & State Management**](Week-04-Frontend-Fundamentals-SPA-React/) — *HTML5, CSS3 Grid, ES6+ JS, React Hooks, and Context API.*
 
 ---
 
@@ -69,6 +70,12 @@ Cognizant_skill_program/
 │   ├── 03-ExceptionHandling-Validation/# @RestControllerAdvice & Jakarta Validation + Theory.md
 │   ├── Assignments/                    # Hands-on evaluations
 │   └── Screenshots/                    # Execution verification proofs
+├── 📁 Week-04-Frontend-Fundamentals-SPA-React/
+│   ├── 01-Frontend-Fundamentals/                   # HTML5 Semantic layout, CSS3 Grid/Flex & ES6+ JS + Theory.md
+│   ├── 02-SinglePageApplications-React/            # React SPA, JSX, Virtual DOM & Props + Theory.md
+│   ├── 03-ComponentArchitecture-StateManagement/   # useState, useEffect, useReducer & Context API + Theory.md
+│   ├── Assignments/                                # Hands-on evaluations
+│   └── Screenshots/                                # Execution verification proofs
 ```
 
 ---

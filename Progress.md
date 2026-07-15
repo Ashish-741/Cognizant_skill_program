@@ -18,10 +18,10 @@
 - Entity Mapping & Transaction Management (`@OneToMany`, `@ManyToMany`, FetchTypes, `@Transactional` Propagation)
 - Exception Handling & Validation in REST APIs (`@RestControllerAdvice`, `@ExceptionHandler`, Jakarta Validation `@Valid`)
 
-## Week 4 ⏳ Pending
-- Frontend Fundamentals (HTML5, CSS3, Modern JavaScript)
-- Single Page Applications (Angular / React Basics)
-- Component Architecture & State Management
+## Week 4 ✅ Completed
+- Frontend Fundamentals (Semantic HTML5, Accessible Forms, Modern CSS3 Flexbox/Grid, ES6+ Asynchronous JavaScript & LocalStorage)
+- Single Page Applications (React SPA Architecture, Virtual DOM Reconciliation & Diffing, JSX Syntax, Props passing)
+- Component Architecture & State Management (`useState`, `useEffect` Lifecycle hooks, `useReducer` action dispatching, Context API without Prop Drilling)
 
 ## Week 5 ⏳ Pending
 - Microservices Architecture & Design Patterns
