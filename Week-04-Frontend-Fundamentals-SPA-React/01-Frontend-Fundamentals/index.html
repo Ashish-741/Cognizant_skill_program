@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognizant SkillSpring — Employee Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Semantic Header and Navigation -->
+    <header class="app-header">
+        <div class="logo-container">
+            <span class="logo-badge">DNS 5.0</span>
+            <h1>SkillSpring Enterprise Portal</h1>
+        </div>
+        <nav class="app-nav" aria-label="Main Navigation">
+            <ul>
+                <li><a href="#dashboard" class="nav-link active">Dashboard</a></li>
+                <li><a href="#registration" class="nav-link">Register Associate</a></li>
+                <li><a href="#directory" class="nav-link">Associate Directory</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <!-- Dashboard Section using CSS Grid layout -->
+        <section id="dashboard" class="dashboard-grid" aria-labelledby="dashboard-title">
+            <h2 id="dashboard-title" class="sr-only">Executive Dashboard</h2>
+            
+            <article class="stat-card">
+                <h3>Total Associates</h3>
+                <p class="stat-value" id="total-count">24</p>
+                <span class="stat-trend">+12% this month</span>
+            </article>
+
+            <article class="stat-card">
+                <h3>Active Projects</h3>
+                <p class="stat-value">8</p>
+                <span class="stat-trend">Java FSE & Cloud</span>
+            </article>
+
+            <article class="stat-card">
+                <h3>Avg. Competency Score</h3>
+                <p class="stat-value">94.5%</p>
+                <span class="stat-trend">GenC Next Benchmark</span>
+            </article>
+        </section>
+
+        <div class="content-split">
+            <!-- Registration Form Section -->
+            <section id="registration" class="form-section">
+                <h2>Register New GenC Associate</h2>
+                <form id="associate-form" novalidate>
+                    <div class="form-group">
+                        <label for="fullName">Full Name <span class="required">*</span></label>
+                        <input type="text" id="fullName" name="fullName" placeholder="e.g. Ashish Kumar Chahar" required minlength="3">
+                        <span class="error-msg" id="name-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="emailAddress">Corporate Email <span class="required">*</span></label>
+                        <input type="email" id="emailAddress" name="emailAddress" placeholder="ashish@cognizant.com" required>
+                        <span class="error-msg" id="email-error"></span>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="track">Skill Track <span class="required">*</span></label>
+                            <select id="track" name="track" required>
+                                <option value="">Select Track</option>
+                                <option value="Java FSE">Java Full Stack Engineer</option>
+                                <option value="Cloud Infra">Cloud & DevOps Engineering</option>
+                                <option value="Data Eng">Data & AI Engineering</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ctcTier">Target Tier <span class="required">*</span></label>
+                            <select id="ctcTier" name="ctcTier" required>
+                                <option value="GenC Next (6.75+ LPA)">GenC Next (6.75+ LPA)</option>
+                                <option value="GenC Pro (5.4 LPA)">GenC Pro (5.4 LPA)</option>
+                                <option value="GenC (4.0 LPA)">GenC (4.0 LPA)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Onboard Associate</button>
+                </form>
+            </section>
+
+            <!-- Aside Sidebar for Quick Guidelines -->
+            <aside class="guidelines-sidebar" aria-labelledby="guidelines-title">
+                <h3 id="guidelines-title">💡 Onboarding Guidelines</h3>
+                <ul class="guidelines-list">
+                    <li>Ensure official corporate domain is used for email.</li>
+                    <li>Associates placed in <strong>GenC Next</strong> undergo rigorous weekly code reviews and live technical assessments.</li>
+                    <li>Data entered here is persisted in LocalStorage via ES6+ asynchronous workflows.</li>
+                </ul>
+            </aside>
+        </div>
+
+        <!-- Associate Directory Section -->
+        <section id="directory" class="directory-section">
+            <h2>Onboarded Associates Roster</h2>
+            <div id="roster-grid" class="roster-grid">
+                <!-- Dynamically populated by app.js -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Semantic Footer -->
+    <footer class="app-footer">
+        <p>&copy; 2026 Cognizant Digital Nurture 5.0 — SkillSpring Program. All rights reserved.</p>
+        <p class="footer-meta">Built using HTML5 Semantic Markup, CSS3 Variables & ES6+ Asynchronous JavaScript.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
