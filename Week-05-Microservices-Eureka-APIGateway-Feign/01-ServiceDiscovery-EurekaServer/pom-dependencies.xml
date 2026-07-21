@@ -1,0 +1,26 @@
+<!-- Eureka Server Dependencies for Spring Boot 3.x / Spring Cloud -->
+<dependencies>
+    <!-- Eureka Server -->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+    </dependency>
+    <!-- Spring Boot Actuator for health monitoring -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+</dependencies>
+
+<!-- Spring Cloud Dependency Management BOM -->
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-dependencies</artifactId>
+            <version>2023.0.0</version> <!-- Compatible with Spring Boot 3.2.x -->
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
