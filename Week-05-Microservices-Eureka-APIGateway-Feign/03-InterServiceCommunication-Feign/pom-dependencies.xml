@@ -1,0 +1,13 @@
+<!-- OpenFeign Dependencies for Spring Boot 3.x / Spring Cloud -->
+<dependencies>
+    <!-- OpenFeign for Declarative REST Clients -->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-openfeign</artifactId>
+    </dependency>
+    <!-- Eureka Client (Required so Feign can resolve service names to IPs) -->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+    </dependency>
+</dependencies>
