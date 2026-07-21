@@ -18,6 +18,7 @@
 01-SpringDataJPA-Hibernate
 02-EntityMapping-Transactions
 03-ExceptionHandling-Validation
+04-Hibernate-HQL
 Assignments
 Screenshots
 ```
