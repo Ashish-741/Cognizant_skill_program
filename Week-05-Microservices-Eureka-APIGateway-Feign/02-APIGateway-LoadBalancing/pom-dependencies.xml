@@ -1,0 +1,20 @@
+<!-- API Gateway Dependencies for Spring Boot 3.x / Spring Cloud -->
+<dependencies>
+    <!-- Spring Cloud Gateway (Reactive Non-Blocking WebFlux) -->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-gateway</artifactId>
+    </dependency>
+    <!-- Eureka Client (To discover downstream services) -->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+    </dependency>
+    <!-- Spring Boot Actuator for health monitoring -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+</dependencies>
+
+<!-- Note: Do NOT include spring-boot-starter-web because Gateway requires WebFlux -->

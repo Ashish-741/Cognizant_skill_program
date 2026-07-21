@@ -1,0 +1,37 @@
+server:
+  port: 8080 # The single entry point port for all frontend clients
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          # Automatically create routes using service IDs registered in Eureka
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        # Route for Employee Service
+        - id: employee-service-route
+          # 'lb://' protocol instructs Gateway to use the LoadBalancer to pick an instance
+          uri: lb://EMPLOYEE-SERVICE
+          predicates:
+            - Path=/api/employees/**
+          filters:
+            - RewritePath=/api/employees/(?<segment>.*), /$\{segment}
+            
+        # Route for Department Service
+        - id: department-service-route
+          uri: lb://DEPARTMENT-SERVICE
+          predicates:
+            - Path=/api/departments/**
+          filters:
+            - RewritePath=/api/departments/(?<segment>.*), /$\{segment}
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
