@@ -15,7 +15,16 @@
 - **Procedures:** Named PL/SQL blocks stored in the database designed to perform complex business workflows (e.g., applying annual salary hikes across departments).
 - **Functions:** Named blocks that compute and return a single derived value (e.g., calculating annual compensation with tax deductions).
 
-### 3. Database Triggers
+### 3. Cursors (Implicit & Explicit)
+- **Implicit Cursors:** Automatically created by Oracle for single-row queries (`SELECT INTO`) or DML operations. Evaluated using attributes like `SQL%FOUND` or `SQL%ROWCOUNT`.
+- **Explicit Cursors:** User-defined structures used to iterate through multiple rows returned by a query, row-by-row (`OPEN`, `FETCH`, `CLOSE`).
+
+### 4. Packages
+- A schema object that groups logically related PL/SQL types, variables, and subprograms (Procedures/Functions). It has two parts:
+  - **Specification:** The public interface declaring available methods.
+  - **Body:** The hidden implementation and private methods.
+
+### 5. Database Triggers
 - Automated PL/SQL blocks that execute implicitly whenever a DML event occurs on a table (`BEFORE INSERT/UPDATE/DELETE` or `AFTER`).
 
 ---
