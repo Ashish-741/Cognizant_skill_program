@@ -23,10 +23,11 @@
 - Single Page Applications (React SPA Architecture, Virtual DOM Reconciliation & Diffing, JSX Syntax, Props passing)
 - Component Architecture & State Management (`useState`, `useEffect` Lifecycle hooks, `useReducer` action dispatching, Context API without Prop Drilling)
 
-## Week 5 ⏳ Pending
-- Microservices Architecture & Design Patterns
-- Service Discovery (Eureka), API Gateway & Load Balancing
-- Inter-service Communication (Feign Client, REST Template)
+## Week 5 ✅ Completed
+- Microservices Architecture & Design Patterns (Monolithic vs Microservices breakdown)
+- Service Discovery (Spring Cloud Netflix Eureka Server `@EnableEurekaServer` & Eureka Clients)
+- API Gateway & Load Balancing (Spring Cloud Gateway WebFlux, `lb://` routing scheme, Pre/Post Filters)
+- Inter-service Communication (Declarative OpenFeign Clients `@FeignClient`, Fallback Circuit Breaker)
 
 ## Week 6 ⏳ Pending
 - Docker Containerization & Docker Compose

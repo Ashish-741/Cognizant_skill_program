@@ -35,4 +35,4 @@ Screenshots
 
 ## Status
 
-🟢 In Progress
+✅ Completed
