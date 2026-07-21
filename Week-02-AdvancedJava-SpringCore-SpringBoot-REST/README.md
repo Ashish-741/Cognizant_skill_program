@@ -9,6 +9,7 @@
 - Spring Boot Auto-configuration & Starter Dependencies
 - RESTful Web Services (`@RestController`, `@GetMapping`, `@PostMapping`, `ResponseEntity`, DTOs)
 - Advanced Java JDBC with Maven, DAO & Factory Pattern (Java 21 Features)
+- Spring JDBC Template (`JdbcTemplate`, `RowMapper`)
 
 ---
 
@@ -18,6 +19,7 @@
 01-AdvancedJava-Streams
 02-SpringCore-DI
 03-SpringBoot-REST
+04-SpringJDBC-Template
 employee-jdbc
 Assignments
 Screenshots
