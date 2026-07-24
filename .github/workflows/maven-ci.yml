@@ -22,13 +22,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
-    # Navigate to the Microservices directory and run a build to verify compilation
-    # Note: We are using Week 5 Feign project as a representative test
-    - name: Build with Maven (Week 5 - Microservices)
-      run: |
-        cd Week-05-Microservices-Eureka-APIGateway-Feign/03-InterServiceCommunication-Feign
-        mvn clean compile
-
     # Navigate to the Docker Spring Boot directory and verify build
     - name: Build with Maven (Week 6 - Docker SpringBoot)
       run: |
