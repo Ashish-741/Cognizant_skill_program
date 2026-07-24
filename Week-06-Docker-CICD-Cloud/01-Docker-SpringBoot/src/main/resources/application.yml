@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    # Use environment variables so Docker Compose can inject them
+    url: ${DB_URL:jdbc:mysql://localhost:3306/dockerdb?createDatabaseIfNotExist=true}
+    username: ${DB_USER:root}
+    password: ${DB_PASSWORD:root}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8080

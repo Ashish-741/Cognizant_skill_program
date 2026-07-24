@@ -23,6 +23,7 @@
 - 🚀 [**Week 3: Spring Data JPA, Hibernate & Exception Handling**](Week-03-SpringDataJPA-Hibernate-ExceptionHandling-Validation/) — *ORM Mappings, @Transactional, and @RestControllerAdvice.*
 - 🚀 [**Week 4: Frontend Fundamentals, React SPAs & State Management**](Week-04-Frontend-Fundamentals-SPA-React/) — *HTML5, CSS3 Grid, ES6+ JS, React Hooks, and Context API.*
 - 🚀 [**Week 5: Microservices Architecture, Service Discovery & API Gateway**](Week-05-Microservices-Eureka-APIGateway-Feign/) — *Netflix Eureka, Spring Cloud Gateway, and OpenFeign.*
+- 🚀 [**Week 6: Docker Containerization, CI/CD & Cloud Fundamentals**](Week-06-Docker-CICD-Cloud/) — *Docker, Docker Compose, GitHub Actions, AWS Basics.*
 
 ---
 
@@ -81,6 +82,11 @@ Cognizant_skill_program/
 │   ├── 01-ServiceDiscovery-EurekaServer/           # Netflix Eureka Server Registry + Theory.md
 │   ├── 02-APIGateway-LoadBalancing/                # Spring Cloud Gateway WebFlux & `lb://` + Theory.md
 │   ├── 03-InterServiceCommunication-Feign/         # Declarative @FeignClient & RestTemplate + Theory.md
+│   ├── Assignments/                                # Hands-on evaluations
+│   └── Screenshots/                                # Execution verification proofs
+├── 📁 Week-06-Docker-CICD-Cloud/
+│   ├── 01-Docker-SpringBoot/                       # Multi-stage Dockerfile & docker-compose.yml for MySQL
+│   ├── Theory.md                                   # Cloud, Containerization & CI/CD Cheat Sheet
 │   ├── Assignments/                                # Hands-on evaluations
 │   └── Screenshots/                                # Execution verification proofs
 ```

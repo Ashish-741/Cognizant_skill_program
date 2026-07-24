@@ -1,0 +1,36 @@
+name: Java CI with Maven
+
+# Trigger the workflow on push or pull request events to the main branch
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 21
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+        cache: maven
+
+    # Navigate to the Microservices directory and run a build to verify compilation
+    # Note: We are using Week 5 Feign project as a representative test
+    - name: Build with Maven (Week 5 - Microservices)
+      run: |
+        cd Week-05-Microservices-Eureka-APIGateway-Feign/03-InterServiceCommunication-Feign
+        mvn clean compile
+
+    # Navigate to the Docker Spring Boot directory and verify build
+    - name: Build with Maven (Week 6 - Docker SpringBoot)
+      run: |
+        cd Week-06-Docker-CICD-Cloud/01-Docker-SpringBoot
+        mvn clean compile

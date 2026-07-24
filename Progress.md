@@ -29,10 +29,10 @@
 - API Gateway & Load Balancing (Spring Cloud Gateway WebFlux, `lb://` routing scheme, Pre/Post Filters)
 - Inter-service Communication (Declarative OpenFeign Clients `@FeignClient`, Fallback Circuit Breaker)
 
-## Week 6 ⏳ Pending
-- Docker Containerization & Docker Compose
-- Continuous Integration & Deployment (CI/CD Pipelines)
-- Cloud Fundamentals & AWS Basics
+## Week 6 ✅ Completed
+- Docker Containerization (Multi-stage builds) & Docker Compose (MySQL orchestration)
+- Continuous Integration & Deployment (GitHub Actions CI/CD Pipelines)
+- Cloud Fundamentals & AWS Basics (EC2, S3, RDS)
 
 ## Week 7 ⏳ Pending
 - Capstone Project Implementation

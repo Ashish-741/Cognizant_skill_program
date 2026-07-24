@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  # The MySQL Database Container
+  mysql-db:
+    image: mysql:8.0
+    container_name: mysql-db
+    environment:
+      MYSQL_DATABASE: dockerdb
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3307:3306"
+    volumes:
+      # Persist data outside the container
+      - mysql-data:/var/lib/mysql
+
+  # The Spring Boot Application Container
+  springboot-app:
+    build: .
+    container_name: springboot-app
+    ports:
+      - "8080:8080"
+    environment:
+      # Override the default localhost url to point to the mysql-db container hostname
+      DB_URL: jdbc:mysql://mysql-db:3306/dockerdb
+      DB_USER: root
+      DB_PASSWORD: root
+    depends_on:
+      - mysql-db
+
+# Define the persistent volume for the database
+volumes:
+  mysql-data:
